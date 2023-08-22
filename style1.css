@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  font-family:Barlow Condensed;
+  font-size: 16px;
+}
+body{
+  background-image: url('./Home.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100% 0%;
+  background-color: black;
+  color: white;
+}
+.container{
+  display: grid;
+  grid-template-rows: 0.25fr 1fr 2fr;
+  margin: 20px;
+  padding: 10px;
+  
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none; 
+}
+.nav-1{
+  grid-area: nav-1 ;
+  width: 100%;
+  padding: 10px;
+
+}
+.nav-2{
+  grid-area: nav-2;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+  padding: 10px;
+}
+img{
+  width: 48px;
+  height:48px;
+  background-color: white;
+  border-radius: 100%;
+}
+a{
+  color: white;
+}
+.inner-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.box-1{
+  width: 100%;
+  margin-left: 30px;
+}
+.first-paragraph{
+  font-size: 28px;
+  font-weight: 400;
+  color: #D0D6F9;
+}
+.big-text{
+  font-family:Bellefair;
+  font-size: 150px;
+}
+.second-paragraph{
+  font-size: 18px;
+  font-family: Barlow;
+  color: #D0D6F9;
+  max-width: 444px;
+}
+.box-2{
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+}
+.oval-container{
+  background:white;
+  color: black;
+  border-radius: 100%;
+  font-size: 32px;
+  font-family:Bellefair;
+  padding: 80px 40px;
+  align-self: center;
+  margin: 10px;
+} 
